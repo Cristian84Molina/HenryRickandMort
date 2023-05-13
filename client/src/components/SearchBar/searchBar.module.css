@@ -1,0 +1,65 @@
+
+@font-face {
+    font-family: 'friday 13';
+    src: url(../Nav/Friday13SH.ttf) format('truetype');
+  }
+ 
+.boton{
+    background-color: transparent;
+    position: relative;
+    left: 350px; 
+    top: -100px;
+    font-size: 30px;
+    font-family: 'friday 13';
+    color: rgba(19, 245, 94, 0.89);
+    
+   
+}
+
+.boton1{
+    background-color:transparent;
+    position: relative;
+    left: 380px; 
+    top: -100px;
+    font-size: 30px;
+    font-family: 'friday 13';
+    color: rgba(19, 245, 94, 0.89);
+    
+   
+}
+
+
+.input{
+    
+    width: 200px;
+    left: 340px;
+    position: relative;
+    top: -100px;
+    font-size: 30px;
+    
+}
+
+@font-face {
+    font-family: 'Fuente Rick and Morty';
+    src: url(./get_schwifty.ttf) format('truetype');
+  }
+ 
+
+.title{
+    font-family:'Fuente Rick and Morty' ;
+    color: rgba(19, 245, 94, 0.89);
+    font-size: 60px;
+    
+    right: 500px;
+    position: relative;
+    margin-top: -30px;
+
+}
+
+.container{
+    width: auto;
+    height: 150px;
+    
+    
+
+}

@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+    /* Estilos para pantallas menores de 768px aquí */
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    /* Estilos para pantallas entre 768px y 1024px aquí */
+  }
+  
+  @media (min-width: 1024px) {
+    /* Estilos para pantallas mayores a 1024px aquí */
+  }

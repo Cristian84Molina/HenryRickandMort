@@ -1,0 +1,117 @@
+.divGeneral {
+  position: relative;
+  width: 300px;
+  height:380px;
+  margin: 15px;
+  justify-content: space-between;
+  box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+}
+
+.img {
+  width: 300px;
+  height: 260px;
+  margin-top: px;
+}
+
+.img:hover {
+  filter: invert(100%);
+}
+
+.name-container {
+  position: relative;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.name {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10px;
+  max-width: 40%;
+  background-color: rgba(20, 187, 56, 0.74);
+  border-radius: 5px;
+  color: aliceblue;
+  box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.3);
+  animation: latido 1s ease-in-out infinite;
+  overflow: hidden; /* ocultar el texto que se desborda del div */
+}
+@keyframes latido {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+.species{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color:aliceblue;
+  width: 50%; /* ancho del div para el elemento gender */
+  text-overflow: ellipsis; /* efecto de recorte */
+  white-space: nowrap; /* asegurarse de que el texto no se envuelva */
+  overflow: hidden; /* ocultar el texto que se desborda del div */
+  
+}
+
+.gender{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: rgba(233, 14, 14, 0.808) ;
+  font-family: Arial, Helvetica, sans-serif; 
+  width: 50%; /* ancho del div para el elemento gender */
+  text-overflow: ellipsis; /* efecto de recorte */
+  white-space: nowrap; /* asegurarse de que el texto no se envuelva */
+  overflow: hidden; /* ocultar el texto que se desborda del div */
+}
+
+.boton{
+  position:relative;
+  top: 15px;
+  left: 40%;
+  background-color: rgba(5, 201, 54, 0.815);
+  cursor: pointer;
+  color: #f50505;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.boton:hover {
+  color: #000;
+}
+.botonFav button {
+  position: relative;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.botonFav button:focus {
+  outline: none;
+}
+
+.botonFav button:active {
+  transform: scale(0.9);
+}
+
+
+

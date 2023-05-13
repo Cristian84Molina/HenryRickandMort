@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+.containerRick {
+  display: flex;
+  justify-content: center;
+}
+body {
+  background-image: url(./imagenes/27353-rick-y-morty.png);
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+
+
+

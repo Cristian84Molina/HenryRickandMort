@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "friday 13";
+  src: url(./Friday13SH.ttf) format("truetype");
+}
+.return {
+    background-color: transparent;
+    position: relative;
+    left: 350px; 
+    
+    font-size: 30px;
+    font-family: 'friday 13';
+    color: rgba(19, 245, 94, 0.89);
+}
+
+/* .img {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
+  box-shadow: 0 0 20px 10px rgba(31, 241, 31, 0.568);
+  border-radius: 20px;
+  right: 300px;
+}
+
+.container {
+  position: absolute;
+  box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  margin-top: 20px;
+  background-color: rgba(33, 190, 27, 0.774);
+} */
+
+.container {
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+  margin-top: 20px;
+  }
+  
+  .img {
+    max-width: 300px;
+    height: auto;
+    margin: 20px;
+    box-shadow: 0 0 20px 10px rgba(31, 241, 31, 0.568);
+    border-radius: 20px;
+    background-color: rgba(25, 167, 25, 0.952);
+    color: white;
+    
+  }
+  

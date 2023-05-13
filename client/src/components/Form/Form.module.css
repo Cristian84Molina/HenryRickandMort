@@ -1,0 +1,65 @@
+/* Estilos para el fondo del formulario y los inputs */
+@font-face {
+    font-family: "friday 13";
+    src: url(./Friday13SH.ttf) format("truetype");
+  }
+
+
+.divForm {
+    background-color: #c8e6c9;
+  padding: 10px;
+  width: 400px;
+  height: 270px;
+  justify-content: space-between;
+  box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  position: absolute;
+  top: 38%;
+  left: 38%;
+  transform: scale(1.5);
+  
+  }
+  
+  input[type="text"], input[type="password"] {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos para la etiqueta de los inputs */
+  .label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #202420;
+    font-family: "friday 13";
+    font-size: x-large;
+    font-weight: bold;
+  }
+  
+  /* Estilos para el botón */
+  .button {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #1b5e20;
+  }
+  
+  /* Estilos para los mensajes de error y éxito */
+  .span {
+    color: #c62828;
+    font-size: 0.8em;
+  
+  }
+  
+ 
