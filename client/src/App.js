@@ -82,7 +82,7 @@ function App() {
   const hideNav = location.pathname === "/";
 
   const navigate = useNavigate();
-  const [access, setAccess] = useState();
+  const [access, setAccess] = useState(false);
   /* const username = "cristian84molina@gmail.com";
   const password = "1password";
 

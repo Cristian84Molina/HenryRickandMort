@@ -1,4 +1,4 @@
-module.exports = [
+/* module.exports = [
     {
        id: 1,
        name: 'Rick Sanchez',
@@ -60,4 +60,4 @@ module.exports = [
        image: 'https://rickandmortyapi.com/api/character/avatar/5.jpeg',
     },
  ];
- 
+  */
